@@ -118,17 +118,19 @@ main {
 }
 
 aside {
-    color:#fff;
     width: 25%;
     padding: 4% 0.5%;
     background-color: gray;
-    text-align: center;
-    position: -webkit-sticky;
-    position: sticky;
+    
 }
 
 .side-links {
-    margin-top: 25%;
+    color:#fff;
+    text-align: center;
+    overflow: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15%;
 }
 .bg-img {
     /* The image used */
