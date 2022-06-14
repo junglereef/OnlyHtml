@@ -105,23 +105,31 @@ body {
 
 .page {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    padding-top: 5%;
-    padding-bottom: 15%;
+   
 }
 
 main {
     width: 85%;
     padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 15%;
 }
 
 aside {
+    color:#fff;
     width: 25%;
     padding: 4% 0.5%;
-
+    background-color: gray;
     text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
 }
 
+.side-links {
+    margin-top: 25%;
+}
 .bg-img {
     /* The image used */
     background-image: url("https://raw.githubusercontent.com/junglereef/OnlyHtml/main/images/intro.jpg");
