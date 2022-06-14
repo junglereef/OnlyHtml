@@ -386,8 +386,8 @@ footer {
         border-bottom: 1px solid #444;
     }
 
-    .page{
-        padding-bottom: 0;
+    .side-links {
+        text-align: center;
     }
 
     footer {
@@ -415,6 +415,7 @@ footer {
         display: flex; 
         /* Optional, if you want the DIVs 100% width: */ 
         flex-direction: column;
+        padding-bottom: 0;
     }
 
     .container{
