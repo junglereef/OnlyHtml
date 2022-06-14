@@ -26,6 +26,9 @@ body {
     color: #FFF;
     height: 50px;
     padding: 1em;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .menu {
