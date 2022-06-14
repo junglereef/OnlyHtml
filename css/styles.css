@@ -393,4 +393,18 @@ footer {
         margin-left: 0;
     }
 
+    .page {
+        display: flex; 
+        /* Optional, if you want the DIVs 100% width: */ 
+        flex-direction: column;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
 }
