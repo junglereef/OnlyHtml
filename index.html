@@ -5,38 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Páginas Web em HTML</title>
 </head>
 
 <body>
-    <table width="100%" border="1">
+    <header>
+        <section class="top-nav">
+            <h2>Páginas Web em HTML</h2>
 
-        <tr valign="center">
-            <th width="20%">
-                <nav>
-                    <dl>
-                        <li><a href="./index.html">INÍCIO</a></li>
-                        <li><a href="./html.html">HTML</a></li>
-                        <li><a href="./css.html">CSS</a></li>
-                        <li><a href="./javascript.html">JAVASCRIPT</a></li>
-                    </dl>
-                </nav>
-            </th>
-      
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
 
-            <th width="80%">
-                <h2>Páginas Web em HTML</h2>
-            </th>
-        </tr>
+                <ul class="menu">
+                    <li><a href="./index.html">INÍCIO</a></li>
+                    <li><a href="./html.html">HTML</a></li>
+                    <li><a href="./css.html">CSS</a></li>
+                    <li><a href="./javascript.html">JAVASCRIPT</a></li>
+                </ul>
+        </section>
+    </header>
+    <article>
+        <img src="/images/intro.jpg" alt="html" width="100%">
+    </article>
 
-        <table width="100%" border="0">
-
-                <tr>
-                   <img src="/images/intro.jpg" alt="html" width="100%">
-            </tr>
-            
-      </table>
 </body>
 
 </html>

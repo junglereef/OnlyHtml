@@ -5,75 +5,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Página HTML</title>
 </head>
 
 <body>
-    <table width="100%" border="1">
+    <header>
+        <section class="top-nav">
+            <h2>Páginas Web em HTML</h2>
 
-        <tr valign="center">
-            <th width="20%">
-                <nav>
-                    <dl>
-                        <li><a href="./index.html">INÍCIO</a></li>
-                        <li><a href="./html.html">HTML</a></li>
-                        <li><a href="./css.html">CSS</a></li>
-                        <li><a href="./javascript.html">JAVASCRIPT</a></li>
-                    </dl>
-                </nav>
-            </th>
-      
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
 
-            <th width="80%">
-                <h2>CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata)</h2>
-            </th>
-        </tr>
+            <ul class="menu">
+                <li><a href="./index.html">INÍCIO</a></li>
+                <li><a href="./html.html">HTML</a></li>
+                <li><a href="./css.html">CSS</a></li>
+                <li><a href="./javascript.html">JAVASCRIPT</a></li>
+            </ul>
+        </section>
+    </header>
+    <div class="page">
+        <main>
+            <h2>Introdução CSS</h2>
+            <p> Se você é novo no desenvolvimento web, certifique-se de ler nosso artigo CSS básico para aprender o que
+                é
+                CSS e
+                como usá-lo. CSS é uma linguagem de estilo usada para descrever a apresentação de um documento escrito
+                em
+                HTML ou em XML
+                (incluindo várias linguagens em XML como SVG, MathML ou XHTML). O CSS descreve como elementos são
+                mostrados
+                na
+                tela, no papel, na fala ou em outras mídias.
 
-        <table width="100%" border="0">
+                CSS é uma das principais linguagens da open web e é padronizada em navagadores web de acordo com as
+                especificação da W3C. Desenvolvido em níveis, o CSS1 está atualmente obsoleto, o CSS2.1 é uma
+                recomendação e
+                o
+                CSS3, agora dividido em pequenos módulos, está progredindo para a sua padronização.
 
-            <td width="80%">
-               <p>CSS é uma linguagem de estilo usada para descrever a apresentação de um documento escrito em HTML ou em XML (incluindo várias linguagens em XML como SVG, MathML ou XHTML). O CSS descreve como elementos são mostrados na tela, no papel, na fala ou em outras mídias.
 
-                CSS é uma das principais linguagens da open web e é padronizada em navagadores web de acordo com as especificação da W3C. Desenvolvido em níveis, o CSS1 está atualmente obsoleto, o CSS2.1 é uma recomendação e o CSS3, agora dividido em pequenos módulos, está progredindo para a sua padronização.
-                
-                <h3>Introdução CSS</h3>
-                Se você é novo no desenvolvimento web, certifique-se de ler nosso artigo CSS básico para aprender o que é CSS e como usá-lo.
-                
+
                 <h3>Tutoriais CSS</h3>
-                Nossa área de aprendizado CSS contém diversos tutoriais para levá-lo do nível iniciante ao avançado, cobrindo todos os fundamentos.
-                
-                <h3>Referências CSS</h3>
-                Nossa extensa referência CSS para desenvolvedores web experientes descreve todas as propriedades e conceitos do CSS.
-                
-                Nossa área de aprendizado CSS contempla múltiplos módulos que ensinam CSS desde o início — não é necessário conhecimento prévio.
-                
-                <h3>Introdução ao CSS</h3>
-                
-                Esse módulo inicia com o funcionamento básico do CSS, incluindo seletores e propriedades, escrever regras CSS, aplicar CSS ao HTML, como especificar comprimento, cor, e outras unidades em CSS, cascata e herança, o básico do modelo de caixas, e depuração de CSS.
-                
-                <h3>Estilização do texto</h3>
-                
-                Esse módulo discute os fundamentos da estilização de textos, incluindo a definição de fontes, negritos, itálicos, linhas e espaçamentos de letras, sombras e outras propriedades de textos.
-                
-                <h3>Estilização de caixas</h3>
-                
-                Esse módulo foca na estilização de caixas, um dos passos fundamentais para o layout de uma página web. Nesse módulo nós recapitulamos o modelo de caixas, então abordamos o controle do layout das caixas definindo margens, bordas e preenchimento, cores de fundo customizadas, imagens e outras características extravagantes como sombras e filtros em caixas.
-                
-                <h3>Layout CSS</h3>
-                
-                Neste ponto nós já vimos os fundamentos do CSS, como estilizar texto e estilizar e manipular caixas que contém seu conteúdo. Agora veremos como posicionar suas caixas no lugar certo em relação à janela de exibição e um ao outro. Nós cobrimos os pré-requisitos necessários e agora você pode se aprofundar no layout do CSS com diferentes configurações de exibição, métodos tradicionais de layout envolvendo float e posicionamento, e modernas ferramentas para layout como flexbox.</p>
-            </td>
+                Nossa área de aprendizado CSS contém diversos tutoriais para levá-lo do nível iniciante ao avançado,
+                cobrindo
+                todos os fundamentos.
 
-            <td valign="top" width="20%">
-                <b>Mais Opçoes</b><br />
-                HTML<br />
-                PHP<br />
-                PERL...
-                </td>
-            
-            
-      </table>
+                <h3>Referências CSS</h3>
+                Nossa extensa referência CSS para desenvolvedores web experientes descreve todas as propriedades e
+                conceitos
+                do
+                CSS.
+
+                Nossa área de aprendizado CSS contempla múltiplos módulos que ensinam CSS desde o início — não é
+                necessário
+                conhecimento prévio.
+
+                <h3>Introdução ao CSS</h3>
+
+                Esse módulo inicia com o funcionamento básico do CSS, incluindo seletores e propriedades, escrever
+                regras
+                CSS,
+                aplicar CSS ao HTML, como especificar comprimento, cor, e outras unidades em CSS, cascata e herança, o
+                básico do
+                modelo de caixas, e depuração de CSS.
+
+                <h3>Estilização do texto</h3>
+
+                Esse módulo discute os fundamentos da estilização de textos, incluindo a definição de fontes, negritos,
+                itálicos, linhas e espaçamentos de letras, sombras e outras propriedades de textos.
+
+                <h3>Estilização de caixas</h3>
+
+                Esse módulo foca na estilização de caixas, um dos passos fundamentais para o layout de uma página web.
+                Nesse
+                módulo nós recapitulamos o modelo de caixas, então abordamos o controle do layout das caixas definindo
+                margens,
+                bordas e preenchimento, cores de fundo customizadas, imagens e outras características extravagantes como
+                sombras
+                e filtros em caixas.
+
+                <h3>Layout CSS</h3>
+
+                Neste ponto nós já vimos os fundamentos do CSS, como estilizar texto e estilizar e manipular caixas que
+                contém
+                seu conteúdo. Agora veremos como posicionar suas caixas no lugar certo em relação à janela de exibição e
+                um
+                ao
+                outro. Nós cobrimos os pré-requisitos necessários e agora você pode se aprofundar no layout do CSS com
+                diferentes configurações de exibição, métodos tradicionais de layout envolvendo float e posicionamento,
+                e
+                modernas ferramentas para layout como flexbox.</p>
+
+        </main>
+        <aside>
+            <b>Conheça Também</b><br />
+            JAVA<br />
+            PHP<br />
+            PERL
+        </aside>
+    </div>
+
 </body>
 
 </html>
