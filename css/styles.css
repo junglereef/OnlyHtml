@@ -389,12 +389,16 @@ footer {
     .footer-customized .footer-right {
         display: block;
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
         text-align: center;
     }
 
     .footer-customized .footer-center i {
         margin-left: 0;
+    }
+
+    .footer-customized{
+        margin-top: 0;
     }
 
     .page {
@@ -403,6 +407,10 @@ footer {
         flex-direction: column;
     }
 
+    .container{
+        margin-top: 10%;
+        right: 90px;
+    }
     main {
         width: 100%;
     }
